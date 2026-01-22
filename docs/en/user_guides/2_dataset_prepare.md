@@ -4,7 +4,7 @@ Download combined drywall dataset from:
 
 And run tools/coco_mask.py (change the DIR variables inside the file) to convert COCO segmentation polygon format to segment masking format.
 
-output_data/
+```output_data/
 ├── ann_dir/                # annotation masks
 │   ├── train/
 │   │   └── imgs.png
@@ -19,4 +19,4 @@ output_data/
     ├── valid/
     │   └── imgs.png
     └── test/
-        └── imgs.png
+        └── imgs.png```
