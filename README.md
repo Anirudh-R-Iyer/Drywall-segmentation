@@ -12,7 +12,7 @@ To train the models simply use the command:
 ## Test
 Ensure that in config, the default hooks has visualization=dict(type='SegVisualizationHook', draw=True, interval=1)
 To train the models simply use the command:
-  - python tools/train.py path/to/config path/to/work_dir --show_dir /path/to/save/images
+  - python tools/test.py path/to/config path/to/work_dir --show_dir /path/to/save/images
 
 ## Inference
 
